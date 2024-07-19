@@ -1,0 +1,50 @@
+INFO:numexpr.utils:NumExpr defaulting to 2 threads.
+INFO:datasets:PyTorch version 2.3.1 available.
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: /root/huggingface_cache/bce-embedding-base_v1
+INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+INFO:     Started server process [11554]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8886 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51926 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
+127.0.0.1
+INFO:     127.0.0.1:55834 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40260 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41448 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41454 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35118 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:35122 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35132 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35146 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35148 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35158 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53444 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53454 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53456 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:53466 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56308 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:40212 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51220 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51234 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51248 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51252 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51268 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44860 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44868 - "GET /js/chunk-vendors.4ca63510.js.map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44884 - "GET /js/index.8d171158.js.map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44894 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44898 - "GET /js/webfontloader.9f1d327d.js.map HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:44258 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45394 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:50350 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33446 - "GET /js/chunk-vendors.4ca63510.js.map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33456 - "GET /js/index.8d171158.js.map HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:60356 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59782 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59788 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:60744 - "GET / HTTP/1.1" 404 Not Found

@@ -25,11 +25,14 @@ db = Chroma(persist_directory="./chroma/hacker_knowledge", embedding_function=hf
 
 # 配置CORS
 origins = [
-    "http://47.109.104.63:80",
-    # 可以根据需要添加更多URL
+    "http://47.109.104.63"
+    "http://47.109.104.63:80",#公网ip
 ]
 
-app.mount("/", StaticFiles(directory="dist", html=True), name="static")
+app.mount("/index", StaticFiles(directory="./dist/index/", html=True), name="index")
+app.mount("/css", StaticFiles(directory="./dist/index/css/", html=True), name="css")
+app.mount("/fonts", StaticFiles(directory="./dist/index/fonts/", html=True), name="fonts")
+app.mount("/js", StaticFiles(directory="./dist/index/js/", html=True), name="js")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
