@@ -6,6 +6,15 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 import re
 import pickle
+import os
+
+file_paths = []
+folder_path = './knowledge'
+for root, dirs, files in os.walk(folder_path):
+    for file in files:
+        file_path = os.path.join(root, file)
+        file_paths.append(file_path)
+print(file_paths[0:])
 model_name = r'/root/huggingface_cache/bce-embedding-base_v1'
 model_kwargs = {'device': 'cpu'}
 encode_kwargs = {'normalize_embeddings': False}

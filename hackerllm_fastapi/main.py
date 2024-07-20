@@ -5,10 +5,10 @@ from dashscope import Generation
 from http import HTTPStatus
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.chains import RetrievalQA
 import uvicorn
 import logging
 from fastapi.staticfiles import StaticFiles
+
 app = FastAPI()
 # 配置日志
 logging.basicConfig(level=logging.INFO)
@@ -70,14 +70,18 @@ async def qwen_response(request: Request):
         ---
         如果你认为上下文与问题无关，请简要回答。
         """
-        message_histories[ip].append({'role': 'user', 'content': send_message})
-        response = Generation.call(model='qwen-14b-chat', result_format='message', messages=message_histories[ip])
+        message_histories[ip].append({'role': 'user', 
+                                        'content': prompt_text})
+        response = Generation.call(model='qwen-long', result_format='message', messages=message_histories[ip])
         if response.status_code == HTTPStatus.OK:
-            message_histories[ip].append(({'role': response.output.choices[0]['message']['role'],
-                                          'content': response.output.choices[0]['message']['content']}))
+            message_histories[ip].append({'role': response.output.choices[0]['message']['role'],
+                                          'content': response.output.choices[0]['message']['content']})
             return {"response": response.output.choices[0]['message']['content']}
         else:
-            return {"status_code": response.status_code}
+            message_histories[ip]={}
+            return {"response": "已超过支持的最大上下文长度,历史记录清空",
+                    "status_code": response.status_code,
+                    "message": response.message}
     except Exception as e:
         logging.error(f"Error processing request: {e}")
         raise HTTPException(status_code=500, detail="Internal server error")

