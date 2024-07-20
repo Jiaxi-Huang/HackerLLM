@@ -56,7 +56,7 @@ SWS3023 Web Mining Group1
 - Li Lanzhe
 - Zhu Ziyi
 - Wang Yuyu
-- Huang Yuhao
-- Huang Jiaxi
+- [Huang Yuhao](https://github.com/CeS-3)
+- [Huang Jiaxi](https://github.com/ToughMamba)
 
 **Welcome pull request**
