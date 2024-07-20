@@ -1,9 +1,9 @@
 # HackerLLM
 
-[![](https://img.shields.io/github/watchers/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/PKUanonym/REKCARC-TSC-UHT/watchers)
-[![](https://img.shields.io/github/stars/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/PKUanonym/REKCARC-TSC-UHT/stargazers)
-[![](https://img.shields.io/github/forks/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/PKUanonym/REKCARC-TSC-UHT/network/members)
-[![](https://img.shields.io/github/issues-pr-closed-raw/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/PKUanonym/REKCARC-TSC-UHT/issues)
+[![](https://img.shields.io/github/watchers/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/ToughMamba/HackerLLM/watchers)
+[![](https://img.shields.io/github/stars/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/ToughMamba/HackerLLM/stargazers)
+[![](https://img.shields.io/github/forks/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/ToughMamba/HackerLLM/network/members)
+[![](https://img.shields.io/github/issues-pr-closed-raw/ToughMamba/HackerLLM.svg?style=flat)](https://github.com/ToughMamba/HackerLLM/issues)
 ![](https://img.shields.io/github/repo-size/ToughMamba/HackerLLM.svg?style=flat)
 
 WebPage: http://47.109.104.63/index
