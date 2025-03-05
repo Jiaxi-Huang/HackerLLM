@@ -58,4 +58,8 @@ SWS3023 Web Mining Group1
 - [Huang Yuhao](https://github.com/CeS-3)
 - [Huang Jiaxi](https://github.com/ToughMamba)
 
+## 参考资料
+https://github.com/datawhalechina/llm-universe
+😊鸣谢
+
 **Welcome pull request**
